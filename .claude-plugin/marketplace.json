@@ -1,23 +1,23 @@
 {
-  "name": "My Claude Skills",
-  "description": "Personal skill library - trading, FPA, market intelligence",
-  "version": "1.0.0",
-  "author": "jtaolv-hash",
-  "skills": [
+  "name": "my-claude-skills",
+  "owner": {
+    "name": "jtaolv-hash"
+  },
+  "plugins": [
     {
-      "name": "Trading Analysis",
-      "description": "Futures trading research across MGC, SIL, MCL, 6E",
-      "path": "skills/trading-analysis/SKILL.md"
+      "name": "trading-analysis",
+      "source": "./trading-analysis",
+      "description": "Futures trading research across MGC, SIL, MCL, 6E"
     },
     {
-      "name": "FPA Reporting",
-      "description": "FPA and reporting workflows for luxury hospitality and PE",
-      "path": "skills/fp-and-a-reporting/SKILL.md"
+      "name": "fp-and-a-reporting",
+      "source": "./fp-and-a-reporting",
+      "description": "FPA and reporting workflows for luxury hospitality and PE"
     },
     {
-      "name": "Market Intelligence",
-      "description": "Structured 6-part market research framework",
-      "path": "skills/market-intelligence/SKILL.md"
+      "name": "market-intelligence",
+      "source": "./market-intelligence",
+      "description": "Structured 6-part market research framework"
     }
   ]
 }
