@@ -1,3 +1,16 @@
+---
+name: fp-and-a-reporting
+description: >
+  Build FP&A and management reporting deliverables for luxury hospitality,
+  private equity, and portfolio company contexts. Trigger on:
+  "variance analysis", "budget vs actuals", "build a forecast", "GOP bridge",
+  "EBITDA waterfall", "RevPAR", "ADR", "occupancy analysis", "KPI report",
+  "monthly close", "MD&A", "asset performance", "portfolio review",
+  "NetSuite report", "scenario model", "runway", "burn analysis".
+  Use FPA-native language: variance, bridge, waterfall, runway, EBITDA.
+  Default to structured outputs: tables, bridges, scenario comparisons.
+  Show logic before formula when building models.
+---
 # Skill: FPA Reporting
 
 ## Purpose

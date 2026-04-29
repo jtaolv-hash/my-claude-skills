@@ -1,3 +1,16 @@
+---
+name: trading-analysis
+description: >
+  Analyze micro futures trades on MGC (gold), SIL (silver), MCL (crude oil),
+  6E (Euro FX), and other COMEX/CME contracts. Trigger on: "review my trade",
+  "analyze this setup", "what's the structure on", "is this a valid entry",
+  "size this position", "where's my invalidation", "MGC", "SIL", "MCL", "6E",
+  "futures trade", "FVG", "order block", "liquidity sweep", "BOS", "CHoCH".
+  Apply EMA/MACD/Bollinger Bands stack plus Smart Money Concepts.
+  Frame analysis as: trend, structure, entry zone, invalidation.
+  Use multi-timeframe logic (HTF bias, LTF entry).
+  Never give trade signals or price predictions.
+---
 # Skill: Trading Analysis
 
 ## Purpose

@@ -1,43 +1,13 @@
-﻿{
+{
   "name": "my-claude-skills",
   "owner": {
     "name": "jtaolv-hash"
   },
   "plugins": [
     {
-      "name": "trading-analysis",
-      "source": "./skills/trading-analysis",
-      "description": "Futures trading research across MGC, SIL, MCL, 6E"
-    },
-    {
-      "name": "fp-and-a-reporting",
-      "source": "./skills/fp-and-a-reporting",
-      "description": "FPA and reporting workflows for luxury hospitality and PE"
-    },
-    {
-      "name": "market-intelligence",
-      "source": "./skills/market-intelligence",
-      "description": "Structured 6-part market research framework"
-    },
-    {
-      "name": "visual-design",
-      "source": "./skills/visual-design",
-      "description": "Illustration, brand identity, poster art, photo direction"
-    },
-    {
-      "name": "digital-design",
-      "source": "./skills/digital-design",
-      "description": "UI/UX, web design, dashboards, motion and animation"
-    },
-    {
-      "name": "print-design",
-      "source": "./skills/print-design",
-      "description": "Pitch decks, reports, editorial layout, packaging"
-    },
-    {
-      "name": "generative-design",
-      "source": "./skills/generative-design",
-      "description": "Algorithmic art, data visualization, generative patterns"
+      "name": "jing-skills",
+      "source": ".",
+      "description": "Personal skills library covering futures trading analysis, FP&A and hospitality reporting, market intelligence research, and design systems (visual, digital, print, generative)."
     }
   ]
 }

@@ -1,3 +1,15 @@
+---
+name: market-intelligence
+description: >
+  Conduct structured market and competitive research using a 6-part framework.
+  Trigger on: "research this market", "TAM/SAM/SOM", "competitive landscape",
+  "who are the players in", "macro outlook for", "what's driving",
+  "demand signals for", "risk factors", "white space in", "opportunity in",
+  "should we enter", "market sizing", "competitive moats", "industry analysis".
+  Produce: (1) market sizing TAM/SAM/SOM, (2) competitive landscape,
+  (3) demand signals, (4) risk factors, (5) opportunity gaps,
+  (6) strategic implications. Always cite sources or flag estimates.
+---
 # Skill: Market Intelligence
 
 ## Purpose
