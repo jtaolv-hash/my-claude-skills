@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(agent-reach install *)",
+      "Bash(/root/.local/bin/agent-reach install *)",
+      "Bash(agent-reach doctor *)",
+      "Bash(/root/.local/bin/agent-reach doctor *)"
+    ]
+  }
+}
