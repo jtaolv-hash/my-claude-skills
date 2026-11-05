@@ -7,7 +7,7 @@
     {
       "name": "jing-skills",
       "source": ".",
-      "description": "Personal skills library covering futures trading analysis, FP&A and hospitality reporting, market intelligence research, and design systems (visual, digital, print, generative)."
+      "description": "Personal skills library covering futures trading analysis, FP&A and hospitality reporting, market intelligence research, design systems (visual, digital, print, generative), plus vendored third-party skills: /teach (mattpocock/skills) and /anatomy (wheresryan22/anatomy)."
     }
   ]
 }

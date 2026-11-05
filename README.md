@@ -150,3 +150,26 @@ the output is technically correct but aesthetically empty.
 **3. Craft standards are non-negotiable.** Every skill has explicit forbidden patterns
 (no Inter+purple gradient, no default Word styles, no random color assignment).
 Defining what's forbidden is as important as defining what to do.
+
+---
+
+## Third-Party Skills (vendored, MIT)
+
+Copied from upstream so they ship with the `jing-skills` plugin. Each folder keeps its upstream `LICENSE` and an `UPSTREAM.md` recording the source commit. To update, re-copy from upstream and bump the commit in `UPSTREAM.md`.
+
+| Folder | Upstream | What it does | How to use |
+|---|---|---|---|
+| `skills/teach/` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) | Turns the current directory into a stateful course: mission, sourced resources, short HTML lessons with feedback loops, learning records, reference sheets. | `/teach <topic>` (manual invocation only). Run it in a dedicated folder per topic. |
+| `skills/anatomy/` | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | Explains a technical idea as an interactive isometric machine (SVG, optional WebGL/3D), with self-auditing geometry and A4 PDF export. | `/anatomy explain how X works, interactive`. Needs Node 20.10+ and Chrome/Chromium. Built example HTML/PDFs were omitted; regenerate with `node examples/<name>/build.mjs`. |
+| `vendor/claude-chief-of-staff/` | [mimurchison/claude-chief-of-staff](https://github.com/mimurchison/claude-chief-of-staff) | Workspace template, not a skill: `/gm` briefing, `/triage` inbox, `/my-tasks`, `/enrich` contacts, all filtered through `goals.yaml`. Needs Gmail + Google Calendar MCP. | See below. |
+
+### Installing Chief of Staff
+
+Its `install.sh` is interactive and **overwrites `~/.claude/CLAUDE.md`** with its own template. Back up your global config first, then merge by hand:
+
+```bash
+cp ~/.claude/CLAUDE.md ~/.claude/CLAUDE.md.pre-cos
+cd vendor/claude-chief-of-staff && ./install.sh
+```
+
+Afterwards, merge the sections you want from `~/.claude/CLAUDE.md.pre-cos` back into `~/.claude/CLAUDE.md`. `goals.yaml`, `my-tasks.yaml`, `contacts/` and `commands/` are only copied if they don't already exist.

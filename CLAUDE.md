@@ -18,6 +18,11 @@
 - Trading Analysis     -> skills/trading-analysis/SKILL.md
 - FP&A Reporting      -> skills/fp-and-a-reporting/SKILL.md
 - Market Intelligence -> skills/market-intelligence/SKILL.md
+- Teach (/teach)      -> skills/teach/SKILL.md (vendored, mattpocock/skills)
+- Anatomy (/anatomy)  -> skills/anatomy/SKILL.md (vendored, wheresryan22/anatomy)
+
+## Vendored Templates (not auto-loaded)
+- Chief of Staff      -> vendor/claude-chief-of-staff/ (run install.sh on a local machine; see Third-Party section of README)
 
 ## Output Format
 - Clean Markdown
